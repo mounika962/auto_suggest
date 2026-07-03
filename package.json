@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mounika962/auto_suggest/issues"
   },
-  "homepage": "https://github.com/mounika962/auto_suggest#readme"
+  "homepage": "https://github.com/mounika962/auto_suggest#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
