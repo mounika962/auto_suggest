@@ -1,8 +1,8 @@
-const express=require('express')
-const app=express()
-const port=3002;
+const express = require('express')
+const app = express()
+const PORT = 3002;
 app.use(express.static("frontend"))
-app.listen(port,function(){
-    console.log("successfully running at http://localhost:"+port)
+app.listen(PORT, function(){
+    console.log("successfully riunning at http://localhost:"+PORT)
 })
 
