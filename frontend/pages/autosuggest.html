@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Being Infinity</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,sans-serif;
+        }
+
+        body{
+            background:white;
+        }
+
+        /* Top Bar */
+        .top{
+            width:100%;
+            padding:20px 40px;
+            overflow:hidden;
+        }
+
+        .gear{
+            float:left;
+            font-size:28px;
+        }
+
+        .status{
+            float:right;
+            font-size:18px;
+        }
+
+        /* Center Content */
+        .container{
+            text-align:center;
+            margin-top:120px;
+        }
+
+        h1{
+            font-size:60px;
+        }
+
+        .being{
+            color:#1E88E5;
+        }
+
+        .infinity{
+            color:#E53935;
+        }
+
+        p{
+            margin-top:15px;
+            color:gray;
+            font-size:20px;
+        }
+
+        /* Search Bar */
+        .search{
+            display:inline-flex;
+            align-items:center;
+            width:550px;
+            border:2px solid black;
+            border-radius:30px;
+            padding:12px 20px;
+            margin-top:35px;
+        }
+
+        .search span{
+            font-size:22px;
+        }
+
+        .search input{
+            border:none;
+            outline:none;
+            width:100%;
+            margin-left:10px;
+            font-size:18px;
+        }
+
+        /* Suggestion Box */
+        .suggestions{
+            width:500px;
+            height:20px;
+            margin:20px auto;
+            border:2px solid black;
+            border-radius:5px;   /* Rectangle */
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size:12px;
+            font-weight:bold;
+            background:white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="top">
+        <span class="gear">⚙️</span>
+
+        <span class="status">
+            ● Online &nbsp; | &nbsp; ⏱️ 0 ms
+        </span>
+    </div>
+
+    <div class="container">
+
+        <h1>
+            <span class="being">Being</span>
+            <span class="infinity">Infinity</span>
+        </h1>
+
+        <p>
+            One million phrases. Four algorithms. Prefix-based Auto Suggest.
+        </p>
+
+        <div class="search">
+            <span>🔍</span>
+            <input type="text" placeholder="Start typing to search...">
+        </div>
+
+        <div class="suggestions">
+            Suggestion Box
+        </div>
+
+    </div>
+
+</body>
+</html>
